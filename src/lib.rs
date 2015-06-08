@@ -20,8 +20,3 @@ pub extern fn process () {
         h.join().ok().expect("Could not join a thread!");
     }
 }
-
-#[test]
-fn test_process() {
-    process()
-}
