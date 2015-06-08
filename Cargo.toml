@@ -1,0 +1,9 @@
+[package]
+name = "embedded_rust"
+version = "0.1.0"
+authors = ["Jack Hoy <jackhoy05@gmail.com>"]
+
+# compile library into standard dynamic library instead of rlib
+[lib]
+name = "embed"
+crate-type = ["dylib"]
